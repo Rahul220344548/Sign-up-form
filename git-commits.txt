@@ -1,0 +1,6 @@
+feat → new feature
+fix → bug fix
+style → CSS / formatting (no logic change)
+refactor → code cleanup
+docs → documentation
+chore → setup / assets / config
