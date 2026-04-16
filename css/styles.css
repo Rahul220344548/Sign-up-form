@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.layout-one{
+    height: 100vh;
+   
+}
+
+.background-img {
+    background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size:40% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.title{
+    padding-top: 4rem;
+    font-size: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+
+
+
+
+

@@ -4,3 +4,11 @@ style → CSS / formatting (no logic change)
 refactor → code cleanup
 docs → documentation
 chore → setup / assets / config
+
+E.g. 
+git commit -m "chore: add images to img folder and custom fonts"
+
+feat: add basic signup form structure
+style: add CSS layout for form
+feat: implement form validation
+chore: add images and fonts assets
