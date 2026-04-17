@@ -12,3 +12,5 @@ feat: add basic signup form structure
 style: add CSS layout for form
 feat: implement form validation
 chore: add images and fonts assets
+feat: create semantic HTML structure for signup form
+feat: add signup form fields and layout structure
