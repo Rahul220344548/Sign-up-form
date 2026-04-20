@@ -14,13 +14,13 @@
     display: flex;
 }
 
-.col-1{
+.hero-panel{
     width: 35vw;
     height: 100vh;  
     position: relative;
 }
 
-.content{
+.hero-overlay{
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -42,19 +42,19 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.odin-title{
+.branding-overlay{
     font: 
         4em "Norse",
         monospace;
     color: white;
 }
 
-.img-credit > p{
+.bgd-credits > p{
     color: white;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 1em;
     text-align: center;
 }
 
