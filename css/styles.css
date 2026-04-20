@@ -17,14 +17,21 @@
 .col-1{
     width: 35vw;
     height: 100vh;  
+    position: relative;
 }
 
 .content{
     display: flex;
+    justify-content: center;
+    padding: 1em;
+    align-items: center;
+    background-color: #00000060;
+    position: relative;
+    top: 25%;
 }
-img{
-    width: 100px;
-    height: 100px;
+.odin-logo{
+    width: 5em;
+    height: 5.5em;
 }
 
 .background-img {
@@ -34,16 +41,22 @@ img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
 }
-.title{
-    padding-top: 4rem;
+.odin-title{
     font: 
-        3em "Norse",
+        4em "Norse",
         monospace;
     color: white;
 }
 
+.img-credit > p{
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
 
 .field-row1,
 .field-row2,
