@@ -14,3 +14,7 @@ feat: implement form validation
 chore: add images and fonts assets
 feat: create semantic HTML structure for signup form
 feat: add signup form fields and layout structure
+
+refactor: rename CSS classes for clarity
+refactor: update HTML class names to follow BEM
+refactor: improve naming consistency in layout
