@@ -89,7 +89,7 @@
     letter-spacing: 0.1em;
     box-shadow:  0px 1px 15px lightgrey;
     font-size: 0.8em;
-    padding-left: 0.5em;
+    padding-left: 0.8em;
     /* border: 2px dashed red; */
 }
 
@@ -107,10 +107,22 @@ fieldset {
 .field-row3,
 .form-title{
     display: flex;
-    padding: 1.5em;
+    padding: 1.2em;
 }
 
 .form-row{
     gap: 4rem;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row input[type='tel'],
+.form-row input[type='password']{
+    border: 1px solid #D6D9DC;
+    background-color: #FFFFFF;
+    padding: 7px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2em;
 }
 
