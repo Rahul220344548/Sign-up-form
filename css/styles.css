@@ -8,6 +8,8 @@
     --calc-padding: clamp(20px,10vw,35px);
     --form-background-color: white;
     --main-content-background-color: #F6F7F8;
+    --button-color: #596D48;
+    --form-inp-border-color: #E5E7EB;
 }
 
 @font-face {
@@ -95,7 +97,11 @@
 
 .registration-section{
     background-color: #F6F7F8;
-    /* border: 2px dashed blue; */
+    padding-left: var(--main-content-padding);
+    /* padding-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
 }
 
 fieldset {
@@ -118,11 +124,31 @@ fieldset {
 .form-row input[type='email'],
 .form-row input[type='tel'],
 .form-row input[type='password']{
-    border: 1px solid #D6D9DC;
+    border: 1px solid var(--form-inp-border-color);
     background-color: #FFFFFF;
-    padding: 7px;
+    padding: 0.6em;
     border-radius: 3px;
     width: 100%;
     font-size: 1.2em;
+    margin-top: 2px;
 }
 
+.form-row input[type='password']:invalid{
+    outline: 3px solid #D55C5F;
+}
+
+button{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--form-background-color);
+    background-color: var(--button-color);
+    padding: 10px 40px;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow:  2px 5px 5px grey;
+    text-shadow: 1px 1px 1px black;
+}
+
+button:hover{
+    background-color:  #436047;
+}
