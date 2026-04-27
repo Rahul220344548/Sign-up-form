@@ -9,7 +9,7 @@
     --form-background-color: white;
     --main-content-background-color: #F6F7F8;
     --button-color: #596D48;
-    --form-inp-border-color: #E5E7EB;
+    --form-input-border-color: #E5E7EB;
 }
 
 @font-face {
@@ -38,7 +38,6 @@
     background-color: #00000060;
     position: relative;
     top: 13%;
-    /* padding-top: 6em; */
 }
 .odin-logo{
     width: 5em;
@@ -82,7 +81,6 @@
 
 .paragraph-section{
     padding: var(--calc-padding);
-    /* border: 2px dashed; */
 }
 
 .form-section {
@@ -92,16 +90,11 @@
     box-shadow:  0px 1px 15px lightgrey;
     font-size: 0.8em;
     padding-left: 0.8em;
-    /* border: 2px dashed red; */
 }
 
 .registration-section{
     background-color: #F6F7F8;
     padding-left: var(--main-content-padding);
-    /* padding-bottom: 10em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
 }
 
 fieldset {
@@ -124,7 +117,7 @@ fieldset {
 .form-row input[type='email'],
 .form-row input[type='tel'],
 .form-row input[type='password']{
-    border: 1px solid var(--form-inp-border-color);
+    border: 1px solid var(--form-input-border-color);
     background-color: #FFFFFF;
     padding: 0.6em;
     border-radius: 3px;
@@ -133,8 +126,15 @@ fieldset {
     margin-top: 2px;
 }
 
-.form-row input[type='password']:invalid{
-    outline: 3px solid #D55C5F;
+.form-row input[type='password']:focus:invalid{
+    border: 2px solid red;
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;    
+}
+
+.form-row input[type='password']:required:focus:valid{
+  background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+  background-size: 25px;
 }
 
 button{
